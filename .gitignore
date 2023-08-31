@@ -6,4 +6,4 @@
 
 ## Application files
 jupyter/notebooks/*
-postgres/*
+postgres/data/*
