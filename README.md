@@ -5,7 +5,7 @@ This project provides a Docker setup for multiple services, including Netdata, J
 
 ## Project Structure
 
-\```
+```
 project-root/
 │
 ├── docker-compose.yml       # Main Docker Compose configuration file
@@ -25,7 +25,7 @@ project-root/
 │
 └── postgres/
     └── data/                # PostgreSQL data directory
-\```
+```
 
 ## Setup Instructions
 
@@ -44,9 +44,9 @@ project-root/
    - Set up SSH keys for password-less push to GitHub.
    
 6. Add the backup script to your crontab to run hourly:
-   \```
+   ```
    0 * * * * /path/to/project-root/scripts/backup_to_github.sh
-   \```
+   ```
 
 ## Troubleshooting
 
